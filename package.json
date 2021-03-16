@@ -3,14 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2"
+  },
   "scripts": {
-    "star": "parcel src/index.html",
-    "build-prod":"parcel build src/index.html"
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannahliang11/template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5"
-  }
+  "bugs": {
+    "url": "https://github.com/hannahliang11/template/issues"
+  },
+  "homepage": "https://github.com/hannahliang11/template#readme"
 }
