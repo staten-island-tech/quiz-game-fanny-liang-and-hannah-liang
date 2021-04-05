@@ -2,8 +2,8 @@ const questions = [
   //questions object{} should contain:
   question,
   "What is the sports name?",
-  answersArr,
   [
+    answersArr,
     {
       name: "sport",
       position: "1",
