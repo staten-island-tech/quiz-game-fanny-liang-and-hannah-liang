@@ -1,5 +1,7 @@
+  
 const questions = [
     {
+        //questions object{} should contain:
         question: "Amount of players that can be played on the field in soccer?",
         contentA: 7,
         contentB: 11,
@@ -47,10 +49,4 @@ const questions = [
         contentD: 8,
         correct: B
     },
-],
-
-   function checkAnswer(answer){
-       if(answer == questions.correct){
-
-       }
-   } 
+]
