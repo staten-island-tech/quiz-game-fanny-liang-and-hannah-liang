@@ -1,13 +1,11 @@
 {
-  "name": "template",
+  "name": "quiz-game-fanny-liang-and-hannah-liang",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0-beta.2",
-    "parcel": "^2.0.0-beta.2",
-    "sass": "^1.32.8"
+    "parcel-bundler": "^1.12.5"
   },
   "scripts": {
     "start": "parcel serve ./src/index.html",
@@ -15,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hannahliang11/template.git"
+    "url": "git+https://github.com/staten-island-tech/quiz-game-fanny-liang-and-hannah-liang.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hannahliang11/template/issues"
+    "url": "https://github.com/staten-island-tech/quiz-game-fanny-liang-and-hannah-liang/issues"
   },
-  "homepage": "https://github.com/hannahliang11/template#readme"
+  "homepage": "https://github.com/staten-island-tech/quiz-game-fanny-liang-and-hannah-liang#readme"
 }
