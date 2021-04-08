@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Amount of players that can be played on the field in soccer?",
+        question1: "Amount of players that can be played on the field in soccer?",
         contentA: 7,
         contentB: 11,
         contentC: 2,
@@ -8,7 +8,7 @@ const questions = [
         correct: B
     },
     {
-        question: "Amount of players that can be played on court in basketball",
+        question2: "Amount of players that can be played on court in basketball",
         contentA: 5,
         contentB: 3,
         contentC: 4,
@@ -16,7 +16,7 @@ const questions = [
         correct: A
     },
     {
-        question: "Amount of players that can be played in tennis?",
+        question3: "Amount of players that can be played in tennis?",
         contentA: 2,
         contentB: 4,
         contentC: neither,
@@ -24,7 +24,7 @@ const questions = [
         correct: D
     },
     {
-        question: "Amount of players that can be played on the field in baseball?",
+        question4: "Amount of players that can be played on the field in baseball?",
         contentA: 22,
         contentB: 26,
         contentC: 28,
@@ -32,7 +32,7 @@ const questions = [
         correct: D
     },
     {
-        question: "Amount of players that can be played in volleyball?",
+        question5: "Amount of players that can be played in volleyball?",
         contentA: 5,
         contentB: 6,
         contentC: 7,
@@ -40,12 +40,28 @@ const questions = [
         correct: B
     },
     {
-        question: "Amount of players that can be played on the field in football?",
+        question6: "Amount of players that can be played on the field in football?",
         contentA: 7,
         contentB: 11,
         contentC: 2,
         contentD: 8,
         correct: B
+    },
+    {
+        question7: "Amount of players that can be played on the field in hockey?",
+        contentA: 6,
+        contentB: 5,
+        contentC: 8,
+        contentD: 9,
+        correct: A
+    },
+    {
+        question8: "Amount of players that can be played in badminton?",
+        contentA: 2,
+        contentB: 4,
+        contentC: neither,
+        contentD: both,
+        correct: D
     },
 ],
 
