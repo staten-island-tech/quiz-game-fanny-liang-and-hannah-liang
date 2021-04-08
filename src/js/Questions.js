@@ -1,4 +1,4 @@
-  
+//array of questions  
 const questions = [
     {
         //questions object{} should contain:
@@ -50,3 +50,21 @@ const questions = [
         correct: B
     },
 ]
+
+function quizQuestions(){
+    //variable to store the HTML output
+    const output = [];
+    // for each question...
+    myQuestions.forEach(
+        (currentQuestion, questionNumber) => {
+
+        // variable to store the list of answers
+        //const answers: [];
+
+        // and for each available answer...
+        for(letter in currentQuestion.answers){
+        }
+        }
+    )
+
+}
