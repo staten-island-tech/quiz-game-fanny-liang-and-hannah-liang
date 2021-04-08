@@ -1,3 +1,4 @@
+  
 const questions = [
     {
         question1: "Amount of players that can be played on the field in soccer?",
@@ -66,7 +67,6 @@ const questions = [
 ],
 
    function checkAnswer(answer){
-       if(answer == questions.correct){
-
-       }
+       if(answer == questions.correct)
    } 
+
