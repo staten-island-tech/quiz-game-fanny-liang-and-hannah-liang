@@ -49,7 +49,7 @@ const questions = [
         correct: B
     },
     {
-        question7: "Amount of players that can be played on the field in hockey?",
+        question7: "Amount of players that can be played on the field in ice hockey?",
         contentA: 6,
         contentB: 5,
         contentC: 8,
@@ -63,6 +63,22 @@ const questions = [
         contentC: neither,
         contentD: both,
         correct: D
+    },
+    {
+        question7: "Amount of players that can be played on the field in field hockey?",
+        contentA: 11,
+        contentB: 10,
+        contentC: 13,
+        contentD: 9,
+        correct: A
+    },
+    {
+        question10: "Amount of players that can be played on the field in rugby?",
+        contentA: 16,
+        contentB: 15,
+        contentC: 18,
+        contentD: 19,
+        correct: B
     },
 ],
 
