@@ -48,8 +48,6 @@ const questions = [
         contentD: 8,
         correct: B
     },
-]
-
     {
         question7: "Amount of players that can be played on the field in ice hockey?",
         contentA: 6,
@@ -102,7 +100,4 @@ function quizQuestions(){
 
 }
 
-   function checkAnswer(answer){
-       if(answer == questions.correct)
-   } 
 
