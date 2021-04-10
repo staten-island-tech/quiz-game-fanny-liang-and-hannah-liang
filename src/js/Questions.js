@@ -48,8 +48,6 @@ const questions = [
         contentD: 8,
         correct: B
     },
-]
-
     {
         question7: "Amount of players that can be played on the field in ice hockey?",
         contentA: 6,
@@ -84,25 +82,25 @@ const questions = [
     },
 ],
 
-function quizQuestions(){
+//function quizQuestions(){
     //variable to store the HTML output
-    const output = [];
+    //const output = [];
     // for each question...
-    myQuestions.forEach(
-        (currentQuestion, questionNumber) => {
+    //myQuestions.forEach(
+        //(currentQuestion, questionNumber) => {
 
         // variable to store the list of answers
         //const answers: [];
 
         // and for each available answer...
-        for(letter in currentQuestion.answers){
-        }
-        }
-    )
+        //for(letter in currentQuestion.answers){
+        // }
+        // }
+    //)
 
-}
+//}
 
-   function checkAnswer(answer){
-       if(answer == questions.correct)
-   } 
+   //function checkAnswer(answer){
+       //if(answer == questions.correct)
+   //} 
 

@@ -4,6 +4,15 @@
   box-sizing: border-box;
   font-family: Lucida Sans;
 }
+.container {
+  display: flex;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: royalblue;
+  font-size: 2rem;
+  min-width: 80rem;
+}
 
 body {
   background-color: green;
@@ -14,6 +23,10 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+}
+
+.btn {
+  background-color: red;
 }
 
 .btn-grid {
