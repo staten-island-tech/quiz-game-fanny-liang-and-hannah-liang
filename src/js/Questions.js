@@ -65,7 +65,7 @@ const questions = [
         correct: D
     },
     {
-        question7: "Amount of players that can be played on the field in field hockey?",
+        question9: "Amount of players that can be played on the field in field hockey?",
         contentA: 11,
         contentB: 10,
         contentC: 13,
@@ -94,16 +94,9 @@ const questions = [
 
         // and for each available answer...
         //for(letter in currentQuestion.answers){
-        // }
-        // }
+
+        //}
+    //}
     //)
-
-//}
-
-<<<<<<< HEAD
-=======
-   //function checkAnswer(answer){
-       //if(answer == questions.correct)
-   //} 
->>>>>>> f60dae0754d4f5244660d2d73dae014c8b81c59e
+    //}
 
