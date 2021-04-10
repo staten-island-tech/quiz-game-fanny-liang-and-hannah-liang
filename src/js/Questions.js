@@ -82,22 +82,28 @@ const questions = [
     },
 ],
 
-function quizQuestions(){
+//function quizQuestions(){
     //variable to store the HTML output
-    const output = [];
+    //const output = [];
     // for each question...
-    myQuestions.forEach(
-        (currentQuestion, questionNumber) => {
+    //myQuestions.forEach(
+        //(currentQuestion, questionNumber) => {
 
         // variable to store the list of answers
         //const answers: [];
 
         // and for each available answer...
-        for(letter in currentQuestion.answers){
-        }
-        }
-    )
+        //for(letter in currentQuestion.answers){
+        // }
+        // }
+    //)
 
-}
+//}
 
+<<<<<<< HEAD
+=======
+   //function checkAnswer(answer){
+       //if(answer == questions.correct)
+   //} 
+>>>>>>> f60dae0754d4f5244660d2d73dae014c8b81c59e
 

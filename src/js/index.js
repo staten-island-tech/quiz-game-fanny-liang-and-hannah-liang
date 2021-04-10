@@ -37,10 +37,10 @@ function setNextQuestion(question) {
     showQuestion[currentQuestionIndex]
 }
 
-function showQuestion(question) {
+function showQuestion(questions) {
     questionElement.innerText = question.question
     // loop through our questions' answers
-    question.answers.forEach(asnwer => {
+    question.answers.forEach(answer => {
         //create a button for each one of them
         const button = document.createElement('button')
         button.innerText = answer.innerText
@@ -53,6 +53,10 @@ function showQuestion(question) {
     })
 }
 
+myQuestions.forEach( (currentQuestion, questionNumber) => {
+    // the code we want to run for each question goes here
+  });
+
 function resetState() {
     nextbutton.ClassList.add('hide')
     while (answerButtonsElement.firstChild) {
@@ -60,5 +64,8 @@ function resetState() {
     }
 }
 
+function showResults(questions, results){
 
+}
 
+submitButton.addEventListener('click', showResults)
