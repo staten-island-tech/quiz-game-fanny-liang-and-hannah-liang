@@ -82,6 +82,8 @@ const questions = [
     },
 ],
 
+const SCORE_POINTS = 100
+const MAX_QUESTIONS = 10
 //function quizQuestions(){
     //variable to store the HTML output
     //const output = [];
@@ -103,4 +105,3 @@ const questions = [
    //function checkAnswer(answer){
        //if(answer == questions.correct)
    //} 
-
