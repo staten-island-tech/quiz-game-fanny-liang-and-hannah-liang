@@ -5,7 +5,7 @@
     const output = [];
 
     // for each question...
-    myQuestions.forEach((currentQuestion, questionNumber) => {
+    questions.forEach((currentQuestion, questionNumber) => {
       // variable to store the list of possible answers
       const answers = [];
 
@@ -42,7 +42,7 @@
     let numCorrect = 0;
 
     // for each question...
-    myQuestions.forEach((currentQuestion, questionNumber) => {
+    questions.forEach((currentQuestion, questionNumber) => {
       // find selected answer
       const answerContainer = answerContainers[questionNumber];
       const selector = `input[name=question${questionNumber}]:checked`;
@@ -64,7 +64,7 @@
     });
 
     // show number of correct answers out of total
-    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    resultsContainer.innerHTML = `${numCorrect} out of ${questions.length}`;
   }
 
   function showSlide(n) {
