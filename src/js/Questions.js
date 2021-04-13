@@ -80,31 +80,4 @@ const questions = [
         contentD: 19,
         correct: B
     },
-],
-
-const SCORE_POINTS = 100
-const MAX_QUESTIONS = 10
-//function quizQuestions(){
-    //variable to store the HTML output
-    //const output = [];
-    // for each question...
-    //myQuestions.forEach(
-        //(currentQuestion, questionNumber) => {
-
-        // variable to store the list of answers
-        //const answers: [];
-
-        // and for each available answer...
-        //for(letter in currentQuestion.answers){
-
-<<<<<<< HEAD
-   //function checkAnswer(answer){
-       //if(answer == questions.correct)
-   //} 
-=======
-        //}
-    //}
-    //)
-    //}
-
->>>>>>> 31fa4081c1009e6734c5fe8e322a2b1c799b6f1f
+]

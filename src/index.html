@@ -4,26 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Quiz Game</title>
     <link rel="stylesheet" href="./scss/main.scss" />
 </head>
 
 <body>
-    <div class="container"></div>
-    <div id="question">Question</div>
-    <div id="answer-buttons" class="btn-grid">
-        <button class="btn">Answer 1</button>
-        <button class="btn">Answer 2</button>
-        <button class="btn">Answer 3</button>
-        <button class="btn">Answer 4</button>
+    <div class="Quiz-Game">Test Your Knowledge on Sports</div>
+    <div class="quiz-container">
+        <div id="quiz"></div>
     </div>
-    <div id="score">start</div>
-    <div id="scoreBoard">scoreBoard</div>
-    <div id="scoreTracker">scoreTracker</div>
-    <div class="controls">
-        <button id="start-btn" class="start-btn btn">Start</button>
-        <button id="next-btn" class="start-btn btn">Next</button>
-    </div>
+    <button id="previous">Previous Question</button>
+    <button id="next">Next Question</button>
+    <button id="submit">Submit Quiz</button>
+    <div id="results"></div>
     <script src="./js/index.js"></script>
 </body>
 
