@@ -1,15 +1,17 @@
 //array of questions
 const questions = [
   {
-    question1: "Amount of players that can be played on the field in soccer?",
-    contentA: 7,
-    contentB: 11,
-    contentC: 2,
-    contentD: 8,
-    correct: B,
+    question: "Amount of players that can be played on the field in soccer?",
+    answers: {
+      a: "7",
+      b: "11",
+      c: "2",
+      d: "8",
+    },
+    correctAnswer: "b",
   },
   {
-    question2: "Amount of players that can be played on court in basketball",
+    question: "Amount of players that can be played on court in basketball",
     contentA: 5,
     contentB: 3,
     contentC: 4,
@@ -17,7 +19,7 @@ const questions = [
     correct: A,
   },
   {
-    question3: "Amount of players that can be played in tennis?",
+    question: "Amount of players that can be played in tennis?",
     contentA: 2,
     contentB: 4,
     contentC: neither,
@@ -25,7 +27,7 @@ const questions = [
     correct: D,
   },
   {
-    question4: "Amount of players that can be played on the field in baseball?",
+    question: "Amount of players that can be played on the field in baseball?",
     contentA: 22,
     contentB: 26,
     contentC: 28,
@@ -33,7 +35,7 @@ const questions = [
     correct: D,
   },
   {
-    question5: "Amount of players that can be played in volleyball?",
+    question: "Amount of players that can be played in volleyball?",
     contentA: 5,
     contentB: 6,
     contentC: 7,
@@ -41,7 +43,7 @@ const questions = [
     correct: B,
   },
   {
-    question6: "Amount of players that can be played on the field in football?",
+    question: "Amount of players that can be played on the field in football?",
     contentA: 7,
     contentB: 11,
     contentC: 2,
@@ -49,7 +51,7 @@ const questions = [
     correct: B,
   },
   {
-    question7:
+    question:
       "Amount of players that can be played on the field in ice hockey?",
     contentA: 6,
     contentB: 5,
@@ -58,7 +60,7 @@ const questions = [
     correct: A,
   },
   {
-    question8: "Amount of players that can be played in badminton?",
+    question: "Amount of players that can be played in badminton?",
     contentA: 2,
     contentB: 4,
     contentC: neither,
@@ -66,7 +68,7 @@ const questions = [
     correct: D,
   },
   {
-    question9:
+    question:
       "Amount of players that can be played on the field in field hockey?",
     contentA: 11,
     contentB: 10,
@@ -75,7 +77,7 @@ const questions = [
     correct: A,
   },
   {
-    question10: "Amount of players that can be played on the field in rugby?",
+    question: "Amount of players that can be played on the field in rugby?",
     contentA: 16,
     contentB: 15,
     contentC: 18,
