@@ -4,7 +4,7 @@ console.log("connected");
 
 //array of questions
 
-let score;
+let score = 0
 //start the game
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
@@ -15,6 +15,23 @@ const answerButtonsElement = document.getElementById("answer-buttons")
 currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
+
+//function
+startGame = () => {
+    questionsCounter = 0
+    score = 0
+    availaleQuestions = [...questions]
+    getNewQuestion()
+}
+
+getNewQuestion = () => {
+    if(availaleQuestions.length === 0 || questionsCounter > MAX_QUESTIONS) {
+        localStorage.setItem('mostRecentScore', score)
+        return window.location.assign('/index.html')
+    }
+    questionsCounter++
+    progressText.innerText = 'Question'
+}
 
 //fucntion startGame() {
     //console.log('Started'
