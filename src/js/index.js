@@ -110,7 +110,7 @@
       correctAnswer: "b",
     },
     {
-      question: "Amount of players that can be played on court in basketball",
+      question: "Amount of players that can be played on court in basketball?",
       answers: {
         a: "5",
         b: "3",
