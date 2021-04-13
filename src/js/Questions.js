@@ -1,4 +1,4 @@
-//array of questions  
+//array of questions
 const questions = [
     {
         question1: "Amount of players that can be played on the field in soccer?",
