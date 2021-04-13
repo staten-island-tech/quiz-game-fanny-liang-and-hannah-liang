@@ -6,11 +6,13 @@
 
     // for each question...
     myQuestions.forEach((currentQuestion, questionNumber) => {
+
       // variable to store the list of possible answers
       const answers = [];
 
       // and for each available answer...
       for (letter in currentQuestion.answers) {
+
         // ...add an HTML radio button
         answers.push(
           `<label>
@@ -85,6 +87,7 @@
     }
   }
 
+  // Functions
   function showNextSlide() {
     showSlide(currentSlide + 1);
   }
@@ -201,6 +204,7 @@
   },
 ]
 
+  // display quiz right away
   buildQuiz();
 
   // Pagination
@@ -216,4 +220,4 @@
   submitButton.addEventListener("click", showResults);
   previousButton.addEventListener("click", showPreviousSlide);
   nextButton.addEventListener("click", showNextSlide);
-})();
+})
