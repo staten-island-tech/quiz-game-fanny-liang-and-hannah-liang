@@ -1,0 +1,64 @@
+body {
+  font-size: 1.5rem;
+  font-family: Arial;
+  background-color: white;
+  text-align: center;
+}
+
+.quiz-game {
+  margin: 0rem;
+  padding: 1rem;
+}
+
+.question {
+  margin: 1.5rem;
+  font-size: 2rem;
+}
+
+.answers {
+  text-align: left;
+  display: inline-block;
+}
+
+.answers-label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+button {
+  font-family: Times;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border: 0rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+button:hover {
+  background-color: lightgreen;
+}
+
+.slide {
+  position: absolute;
+  left: 0rem;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.active-slide {
+  opacity: 1;
+  z-index: 2;
+}
+
+.quiz-container {
+  position: relative;
+  height: 10rem;
+  margin-top: 4rem;
+}
+/*# sourceMappingURL=main.css.map */
